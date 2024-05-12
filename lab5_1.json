@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+</head>
+
+<body>
+    <script>
+    const bookData = {
+
+        "Book1": [
+            {
+                "title" : "The Great Gatsby",
+                "author" : "F. Scott Fitzgerald",
+                "publicationYear" : "1925",
+                "genres" : "Fiction, Classics"
+            }
+        ],
+
+        "Book2": [
+            {
+                "title" : "To Kill a Mockingbird",
+                "author" : "Harper Lee",
+                "publicationYear" : "1960",
+                "genres" : "Fiction, Coming-of-Age"
+            }
+        ]
+    };
+
+    // (a) The title of the first book.
+    console.log("Title of the first book: " + bookData.Book1[0].title);
+
+    // (b) The author of the second book.
+    console.log("Author of the second book: " + bookData.Book2[0].author);
+
+    // (c) The genres of all books.
+    console.log("Genres of all books:");
+    console.log("Book 1: " + bookData.Book1[0].genres);
+    console.log("Book 2: " + bookData.Book2[0].genres);
+    </script>
+</body>
+</html>
+
